@@ -1,0 +1,29 @@
+{
+  "name": "civic-tech-taxonomy-generator",
+  "version": "1.0.0",
+  "description": "An automated yaml generator for civic tech categorization",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --project tsconfig.json \"src/**/*.ts{,x}\""
+  },
+  "keywords": [
+    "code-for-america",
+    "civic",
+    "civic",
+    "tech",
+    "code-for-philly"
+  ],
+  "author": "Aaron Long <aaron.long.c@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.24",
+    "@types/yamljs": "^0.2.30",
+    "tslint": "^5.6.0",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "yamljs": "^0.3.0"
+  }
+}
